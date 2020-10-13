@@ -1,11 +1,11 @@
-package firstTask;
+package javaCore;
 
 import java.util.ArrayList;
 
 public class ArraySort {
 
     public static ArrayList<Integer> sort(ArrayList<Integer> array) {
-        ArrayList<Integer> sortedArray = new ArrayList<Integer>();
+        ArrayList<Integer> sortedArray = new ArrayList<>();
         while (array.size() > 0) {
             int minElement = 0;
             for (int i = 1; i < array.size(); i++) {
@@ -34,7 +34,7 @@ public class ArraySort {
     }
 
     public static void main(String[] args) {
-        ArrayList<Integer> arrayList = new ArrayList<Integer>();
+        ArrayList<Integer> arrayList = new ArrayList<>();
         arrayList.add(7);
         arrayList.add(2);
         arrayList.add(1);

@@ -1,11 +1,13 @@
-package firstTask;
+package javaCore;
 
 import java.util.Scanner;
 
 import static java.lang.String.format;
-import static java.lang.System.*;
+import static java.lang.System.in;
+import static java.lang.System.out;
 
 public class DigitsSum {
+
     public static int sumOfDigits(int integer) {
         int sum = 0;
         while (integer != 0) {

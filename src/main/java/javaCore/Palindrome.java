@@ -1,10 +1,11 @@
-package firstTask;
+package javaCore;
 
 import java.util.Scanner;
 
 import static java.lang.String.format;
 
 public class Palindrome {
+
     public static boolean isPalindrome(int number) {
         Integer initialNumber = number;
         int reverseNumber = 0;
