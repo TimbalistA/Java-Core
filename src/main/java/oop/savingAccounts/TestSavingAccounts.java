@@ -17,10 +17,10 @@ public class TestSavingAccounts {
         savingAccounts.add(new SavingAccount(2000));
         savingAccounts.add(new SavingAccount(3000));
 
-        SavingAccount.modifyInterestRate(4);
+        SavingAccount.modifyInterestRate(0.04f);
         monthlyInterestForAllAccounts(savingAccounts);
 
-        SavingAccount.modifyInterestRate(5);
+        SavingAccount.modifyInterestRate(0.05f);
         monthlyInterestForAllAccounts(savingAccounts);
     }
 
