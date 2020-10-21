@@ -1,8 +1,9 @@
-package firstTask;
+package javaCore;
 
 import java.util.ArrayList;
 
-import static firstTask.Gender.*;
+import static javaCore.Gender.FEMALE;
+import static javaCore.Gender.MALE;
 
 public class Person {
 
@@ -28,7 +29,7 @@ public class Person {
     }
 
     public static void parseArray(Object[] array) {
-        ArrayList<Person> people = new ArrayList<Person>();
+        ArrayList<Person> people = new ArrayList<>();
         StringBuilder string = new StringBuilder();
         int sum = 0;
 
@@ -56,7 +57,7 @@ public class Person {
     }
 
     public static void main(String[] args) {
-        Object[] array = new Object[] { "Today", 12334, new Person("Test", 25, Female), new Person("Test", 5, Male) };
+        Object[] array = new Object[] { "Today", 12334, new Person("Test", 25, FEMALE), new Person("Test", 5, MALE) };
         parseArray(array);
     }
 
